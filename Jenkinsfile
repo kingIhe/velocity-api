@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven 3.8.4' // Ensures Jenkins manages the maven version
+        maven 'Maven 3.8.4' // Ensures Jenkins manages the maven version
     }
 
     stages {
